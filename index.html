@@ -281,7 +281,7 @@
                         <figcaption class="story__caption">Ibidun Eugenie</figcaption>
                     </figure>
                     <div class="story__text">
-                        <h3 class="heading-tertiary u-margin-bottom-small">Mind blowing experience</h3>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Mind blowing views</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates odit doloremque aperiam recusandae modi eius veritatis eveniet? Ut nisi culpa reprehenderit, odio a eveniet repudiandae, deleniti minima, saepe iure quibusdam.</p>
                     </div>
                 </div>
@@ -346,7 +346,13 @@
 
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="img/logo-white.png" alt="full logo" class="footer__logo">
+
+            <picture class="footer__logo">
+                <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" alt="small" media="(max-width: 37.5em)">
+                <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x 2x" alt="full logo" alt="big" src="img/logo-green-2x.png">
+            </picture>
+
+            <!-- <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x 2x" alt="full logo" class="footer__logo"> -->
         </div>
         <div class="row">
             <div class="col-1-of-2">
